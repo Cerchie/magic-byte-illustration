@@ -10,20 +10,20 @@ We'll change file signatures and observe how it changes the output of the MacOS 
 Steps:
  <br />
  <br />
-1. `git clone https://github.com/Cerchie/magic-byte-illustration.git && cd magic-byte-illustration`
+## 1. `git clone https://github.com/Cerchie/magic-byte-illustration.git && cd magic-byte-illustration`
  <br />
   <br />
-2. Now view PK.zip in your text editor. It will look something like:
+## 2. Now view PK.zip in your text editor. It will look something like:
  <br />
  <br />
 <img width="800" alt="first few lines are PK����;" src="https://user-images.githubusercontent.com/54046179/219688465-e5dbe27a-45b9-4030-9f92-3b7651a81ac2.png">
 
  <br />
-3. PK is the file signature for the zip file format. You can verify that by running `file PK.zip`. 
+## 3. PK is the file signature for the zip file format. You can verify that by running `file PK.zip`. 
  <br />
   <br />
    <br />
-4. Let's change the file signature so that `file` reads this file as a PDF! 
+## 4. Let's change the file signature so that `file` reads this file as a PDF! 
  <br />
    <br />
 `git checkout change-signature-to-pdf`
@@ -35,4 +35,4 @@ When you view the file in your text editor, you can see that the signature has c
 <img width="800" alt="first few lines read %PDF-���" src="https://user-images.githubusercontent.com/54046179/219689338-44cfbd66-5c2e-40d7-9982-df57e6fee86d.png">
  <br />
   <br />
-5. Run `file PK.zip` to confirm. Note that while the _extension_ is still ".zip", the file signature is for a PDF, so it's read as a PDF. Pretty cool huh? 
+## 5. Run `file PK.zip` to confirm. Note that while the _extension_ is still ".zip", the file signature is for a PDF, so it's read as a PDF. Pretty cool huh? 
