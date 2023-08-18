@@ -4,6 +4,8 @@
 If you're curious about how [magic bytes work](https://en.wikipedia.org/wiki/List_of_file_signatures), this tutorial can help!  
  <br />
 
+ (If you're using Kafka and have received a magic byte error, check out [this blog post](https://www.confluent.io/blog/how-to-fix-unknown-magic-byte-errors-in-apache-kafka/) for help.)
+
 We'll change file signatures and observe how it changes the output of the MacOS [file command](https://ss64.com/osx/file.html). (Limitation: this tutorial is for MacOS users.)
  <br />
  <br />
