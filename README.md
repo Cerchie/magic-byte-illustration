@@ -1,8 +1,6 @@
-# magic-byte-illustration   <br />
+# magic-byte-illustration
 
- <br />
 If you're curious about how [magic bytes work](https://en.wikipedia.org/wiki/List_of_file_signatures), this tutorial can help!  
- <br />
 
  (If you're using Kafka and have received a magic byte error, check out [this blog post](https://www.confluent.io/blog/how-to-fix-unknown-magic-byte-errors-in-apache-kafka/) for help.)
 
